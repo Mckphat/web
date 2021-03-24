@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+
+body {
+     background-color: rgb(52, 52, 66);
+     width: 100vw;
+     height: 100vh;
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     overflow: hidden;
+}
+.card {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "desc";
+    margin: 50px;
+
+    border-radius: 18px;
+    background:white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0,9);
+    text-align: center;
+    color: rgb(59, 58, 58);
+
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.card-image{
+    grid-area: image;
+    background: url("/images/image2.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+.card-image-two {
+    grid-area: image;
+    background: url("/images/puzzle.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+.card-image-three {
+    grid-area: image;
+    background: url("/images/image3.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card-text {
+    grid-area: text;
+    margin: 25px;
+    font-family: monospace;
+
+}
+.card-description {
+    grid-area: desc;
+}
+.card:hover {
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0,6);
+}
+.card-title{
+    font-family: 'Istok Web', sans-serif;
+}
+a.button-one {
+    display: inline-block;
+    padding: 15px;
+    color: rgb(255, 94, 0);
+    border-radius: 2em;
+    font-size: large;
+    text-decoration: none;
+    margin: 25px;
+    font-family: monospace;
+    font-weight: 800;
+    
+}
+.quote1{
+    font-size: small;
+}
+a.button-two {
+    text-decoration: none;
+    color: rgb(59, 58, 58);
+}

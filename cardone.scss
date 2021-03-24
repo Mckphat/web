@@ -1,0 +1,15 @@
+
+/**Styling for card one or page 1*/
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+* {
+  box-sizing: border-box;
+}
+body {
+background-color: #4b4b4b;
+min-height: 100vh;
+font-family: 'Fira Sans', sans-serif;
+  display: flex;
+}
+.blog-slider{
+  width: 95%;
+}
